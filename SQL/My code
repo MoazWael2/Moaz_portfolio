@@ -1,62 +1,4 @@
-
--- Gender Equality Data Analysis for Côte d'Ivoire
-
--- This SQL script is part of a data analysis project that explores various gender equality indicators in Côte d'Ivoire.
--- The purpose of the script is to extract and manipulate data for further analysis and visualization.
-
--- Use the 'czechia_gender' database
-USE czechia_gender;
-
--- Retrieve unique indicators from the 'gender_civ' table
-SELECT DISTINCT Indicator_Name
-FROM gender_civ;
-
--- Insert a new record for the literacy rate of adult males in 2016
-INSERT INTO czechia_gender.gender_civ (
-    Country_Name,
-    Country_Code,
-    Year,
-    Indicator_Name,
-    Indicator_Code,
-    Value
-)
-VALUES (
-    'Cote d''Ivoire', 
-    'CIV', 
-    2016, 
-    'Literacy rate adult male (% of males ages 15 and above)',
-    'SE.ADT.LITR.FE.ZS', 
-    45
-);
-
--- Update the literacy rate value for adult males in 2016
-UPDATE czechia_gender.gender_civ
-SET Value = 59
-WHERE Indicator_Name = 'Literacy rate adult male (% of males ages 15 and above)'
-  AND Year = 2016;
-
--- Insert new data for part-time female employment in 2020
-INSERT INTO czechia_gender.gender_civ (
-    Country_Name,
-    Country_Code,
-    Year,
-    Indicator_Name,
-    Indicator_Code,
-    Value
-)
-VALUES (
-    'Cote d''Ivoire', 
-    'CIV', 
-    2020, 
-    'Part time employment, female (% of total female employment)',
-    'SL.TLF.PART.FE.ZS',
-    38
-);
-
--- The remaining queries are designed to aggregate and organize data related to education, labor force participation, 
--- women's rights, and perceptions of domestic violence, which will inform a comprehensive gender equality analysis.
-
- 
+-- Gender Equality Data Analysis for Côte d'Ivoire 
 -- Gendered Education Completion Rates for Adults Over 25 (1998-2016)
 -- This section of the analysis focuses on the educational attainment of the adult population over 25 years old in Côte d'Ivoire, differentiated by gender. The SQL query calculates the cumulative education completion rates for both females and males for the years 1998, 2014, and 2016.
 
@@ -229,4 +171,3 @@ VALUES (
       Year IN (2010, 2020)
   GROUP BY 
       Indicator_Name;
-
