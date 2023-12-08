@@ -1,3 +1,4 @@
+```SQL
 -- Gender Equality Data Analysis for Côte d'Ivoire
 
 -- This SQL script is part of a data analysis project that explores various gender equality indicators in Côte d'Ivoire.
@@ -228,3 +229,4 @@ VALUES (
       Year IN (2010, 2020)
   GROUP BY 
       Indicator_Name;
+```
