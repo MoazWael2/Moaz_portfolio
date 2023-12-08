@@ -1,4 +1,4 @@
-# Gender Equality Data Analysis for Côte d'Ivoire (Using SQL)
+# My Analysis for Women Empowerment in Côte d'Ivoire: Weaving the Threads of Women's Progress ( Full Project)
 
 ### table of content 
 - [Project Overview](#project-overview)
@@ -6,8 +6,8 @@
 - [Tools](#tools)
 - [Explore data analysis](#explore-data-analysis)
 - [Data Analysis](#data-analysis)
-
-
+- [Final Dashboard](#final-dashboard)
+- [Final Conclusion](#final-conclusion)
 
 ### project overview
 This SQL script is part of a data analysis project that explores various gender equality indicators in Côte d'Ivoire. The purpose of the script is to extract and manipulate data for further analysis and visualization.
@@ -258,3 +258,17 @@ GROUP BY
 ###### Analysis Results
 ![Womeen rights](https://github.com/MoazWael2/Moaz_portfolio/assets/137816418/f501fa66-0d95-44ce-9f5b-1e68b6155ffe)
 
+
+### Final Dashboard
+
+![07 12 2023_14 18 47_REC](https://github.com/MoazWael2/Moaz_portfolio/assets/137816418/89eeb411-d2dc-4a29-af37-3730f0bb8663)
+
+
+### Final Conclusion
+In "Empowering Ivorian Voices," we've undertaken a detailed exploration of gender-related metrics in Côte d'Ivoire, highlighting both advancements and challenges in gender equality. Key findings include:
+ - Educational Progress: Notable improvements in literacy rates and educational attainment, particularly among women, demonstrate positive impacts of educational policies.
+ - Persistent Gender Gaps: Despite progress, enduring disparities in areas like domestic violence perceptions indicate ongoing cultural challenges.
+ - Economic Participation: Women's evolving roles in the labor force are evident, especially in agriculture and services, but there's room for growth in formal employment sectors.
+ - Legal Rights: Progress in women's legal rights is notable, yet there is a need for ensuring these rights are universally recognized and practiced.
+   
+This project underscores the importance of data-driven approaches in shaping policies and initiatives for gender equality in Côte d'Ivoire, calling for continued efforts to transform these insights into actionable strategies for real-world impact.
