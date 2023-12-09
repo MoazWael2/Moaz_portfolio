@@ -1,5 +1,9 @@
 # My Analysis for Women Empowerment in Côte d'Ivoire: Weaving the Threads of Women's Progress ( Full Project)
 
+**Name**: Moaz Wael Hanafy <br />
+**Email**: moazwael1997@gmail.com <br />
+**LinkedIn**: [View Profile](https://www.linkedin.com/in/moaz-wael-14212323a) 
+
 ### table of content 
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
