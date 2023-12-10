@@ -22,8 +22,8 @@ This SQL script is part of a data analysis project that explores various gender 
 
 ### Tools
 - Excel for data cleaning.
-- Mysql for analysis.
-- PoweBi for creating a report.
+- Mysql for analysis. [View The Code](https://github.com/MoazWael2/Women-Empowerment-in-C-te-d-Ivoire_analysis/blob/4ff033f8da910f7f50060a91b2970a9c3d888147/Questions%20and%20Answers%20with%20SQL.md)
+- PoweBi for creating a report. [View The Report](https://app.powerbi.com/view?r=eyJrIjoiZDEwMmE4NjItMTBlYy00NzY1LTg3ZDgtNTRmYTM4NjAwZWJiIiwidCI6IjQzN2UyYmI5LTk4ZjktNDYwZC05NzViLTg3MDAyZjc1MmIyZCJ9)
 
 ### Explore data analysis
 - Aggregates data for educational attainment among adults over 25 by gender:
